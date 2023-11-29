@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "XXySagKiAc7Ae3EckpADLvujsm5XfTUg7gTEa7a9W6U=",
+  "Source": "cj-web-service",
+  "BasePath": "_content/cj-web-service",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
