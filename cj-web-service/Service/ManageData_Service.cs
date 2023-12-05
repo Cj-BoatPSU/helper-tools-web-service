@@ -86,6 +86,7 @@ namespace cj_web_service.Service
                         new_detail_item.TypeId = detail.TypeId;
                         new_detail_item.Topic = detail.Topic;
                         new_detail_item.Amount = detail.Amount;
+                        new_detail_item.AlreadyPaid = detail.AlreadyPaid;
 
                         await _coreContext.FinancialDetails.AddAsync(new_detail_item);
                     }
@@ -94,6 +95,7 @@ namespace cj_web_service.Service
                         item_detail.TypeId = detail.TypeId;
                         item_detail.Topic = detail.Topic;
                         item_detail.Amount = detail.Amount;
+                        item_detail.AlreadyPaid = detail.AlreadyPaid;
                     }
 
                     await _coreContext.SaveChangesAsync();

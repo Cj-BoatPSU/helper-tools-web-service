@@ -5,7 +5,7 @@ namespace cj_web_service.Models.DBModels
 {
     public partial class FinancialType
     {
-        public int? TypeId { get; set; }
+        public int TypeId { get; set; }
         public string? Type { get; set; }
         public int? Percent { get; set; }
         public int? Value { get; set; }
