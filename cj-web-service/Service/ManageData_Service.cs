@@ -111,6 +111,12 @@ namespace cj_web_service.Service
                     }
                 }
 
+                if (detailList.All(x => x.AlreadyPaid == true))
+                {
+                    info.IsCompleted = true;
+                    await _coreContext.SaveChangesAsync();
+                }
+
             }
 
             return data;

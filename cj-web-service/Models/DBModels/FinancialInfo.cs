@@ -10,5 +10,6 @@ namespace cj_web_service.Models.DBModels
         public int? Salary { get; set; }
         public double? Use { get; set; }
         public double? Balance { get; set; }
+        public bool? IsCompleted { get; set; }
     }
 }
