@@ -4,9 +4,9 @@ GO
 CREATE DATABASE [Helper_Tools_DB]
  CONTAINMENT = NONE
  ON  PRIMARY 
-( NAME = N'Helper_Tools_DB', FILENAME = N'C:\Users\zchutiwat.j\Helper_Tools_DB.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
+( NAME = N'Helper_Tools_DB', FILENAME = N'C:\Users\Lenovo\Helper_Tools_DB.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
  LOG ON 
-( NAME = N'Helper_Tools_DB_log', FILENAME = N'C:\Users\zchutiwat.j\Helper_Tools_DB_log.ldf' , SIZE = 8192KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
+( NAME = N'Helper_Tools_DB_log', FILENAME = N'C:\Users\Lenovo\Helper_Tools_DB_log.ldf' , SIZE = 8192KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
  WITH CATALOG_COLLATION = DATABASE_DEFAULT
 GO
 ALTER DATABASE [Helper_Tools_DB] SET COMPATIBILITY_LEVEL = 150

@@ -41,7 +41,7 @@ namespace cj_web_service.Context
 
                 entity.Property(e => e.FinancialInfoId).HasColumnName("FinancialInfoID");
 
-                entity.Property(e => e.Topic).HasMaxLength(100);
+                entity.Property(e => e.Topic);
 
                 entity.Property(e => e.TypeId).HasColumnName("TypeID");
             });
